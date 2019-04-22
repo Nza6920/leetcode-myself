@@ -1,4 +1,4 @@
-package leets20190419;
+package leet20190419;
 
 
 public class Solution {
