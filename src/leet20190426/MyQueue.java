@@ -76,8 +76,5 @@ public class MyQueue {
         System.out.println(queue.peek());
         queue.push(3);
         System.out.println(queue.peek());
-
-
-
     }
 }
