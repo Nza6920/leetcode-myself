@@ -88,8 +88,7 @@ public class Solution {
                     strBuilder.append(ch[i]);
                 }
                 pos++;
-            }
-            else{
+            } else{
                 pos--;
                 if(pos != 0){
                     strBuilder.append(ch[i]);
