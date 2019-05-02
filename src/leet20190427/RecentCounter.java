@@ -14,14 +14,10 @@ import java.util.Queue;
  *
  * 保证每次对 ping 的调用都使用比之前更大的 t 值。
  *
- *
- *
  * 示例：
  *
  * 输入：inputs = ["RecentCounter","ping","ping","ping","ping"], inputs = [[],[1],[100],[3001],[3002]]
  * 输出：[null,1,2,3,3]
- *
- *
  *
  * 提示：
  *
