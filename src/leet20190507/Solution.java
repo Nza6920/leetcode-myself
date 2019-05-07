@@ -23,8 +23,8 @@ package leet20190507;
 public class Solution {
     /**
      * 暴力法
-     * @param prices
-     * @return
+     * @param prices 数组
+     * @return int
      */
     public static int maxProfit(int[] prices)
     {
@@ -43,8 +43,8 @@ public class Solution {
 
     /**
      * 一次遍历
-     * @param prices
-     * @return
+     * @param prices 数组
+     * @return int
      */
     public static  int maxProfits(int prices[]) {
         int minprice = Integer.MAX_VALUE;
