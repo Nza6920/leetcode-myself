@@ -3,7 +3,7 @@ package leet190321;
 import java.util.HashMap;
 
 /**
- * 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
+ * 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M
  *
  * 字符          数值
  * I             1
