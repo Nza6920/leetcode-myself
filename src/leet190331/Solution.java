@@ -2,6 +2,13 @@ package leet190331;
 
 import java.util.Arrays;
 
+/**
+ * 给定一个排序数组和一个目标值，如果找到目标，返回索引。如果没有，返回按顺序插入的索引所在的位置。您可以假定数组中没有重复项。
+ * [1,3,5,6], 5 → 2
+ * [1,3,5,6], 2 → 1
+ * [1,3,5,6], 7 → 4
+ * [1,3,5,6], 0 → 0
+ */
 public class Solution {
     public static int searchInsert(int[] nums, int target) {
         int result = 0;
