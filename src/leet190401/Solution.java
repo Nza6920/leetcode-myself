@@ -1,7 +1,5 @@
 package leet190401;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
