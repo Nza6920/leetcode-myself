@@ -22,18 +22,17 @@ public class Solution {
         int min = nums[nums.length -1];
         int end = -1;
         int max = nums[0];
-        for(int i = nums.length-2; i > -1; i--) {
-            if (nums[i] > min) {
-                start = i;
-            }else {
-                min = nums[i];
-            }
-        }
-        for (int i = 1; i < nums.length && start != -1; i++) {
+        for (int i = 1, j =  nums.length-2; i < nums.length && j > -1; i++,j--) {
             if (nums[i] < max) {
                 end = i;
             }else {
                 max = nums[i];
+            }
+
+            if (nums[j] > min) {
+                start = j;
+            }else {
+                min = nums[j];
             }
         }
         return start == -1 ? 0 : end - start + 1;
