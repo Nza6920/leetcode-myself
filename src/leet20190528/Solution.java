@@ -1,8 +1,5 @@
 package leet20190528;
 
-import javax.swing.tree.TreeNode;
-import javax.xml.transform.Source;
-
 /**
  * 给定两个二叉树，编写一个函数来检验它们是否相同。
  *
