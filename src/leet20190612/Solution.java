@@ -35,7 +35,6 @@ package leet20190612;
  *     matrix 是一个包含整数的二维数组。
  *     matrix 的行数和列数均在 [1, 20]范围内。
  *     matrix[i][j] 包含的整数在 [0, 99]范围内。
- *
  */
 public class Solution {
     public static boolean isToeplitzMatrix(int[][] matrix) {
