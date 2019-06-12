@@ -45,7 +45,6 @@ public class Solution {
             res[k] = (int) iterator.next();
             k++;
         }
-        
         return res;
     }
     public static void main(String[] args) {
