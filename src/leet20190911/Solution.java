@@ -1,6 +1,5 @@
 package leet20190911;
 
-
 /**
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
  *
@@ -35,7 +34,7 @@ package leet20190911;
  * 返回 false 。
  */
 public class Solution {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -63,5 +62,22 @@ public class Solution {
         } else {
             return -1;
         }
+    }
+
+    private int height2(TreeNode root) {
+        if (root == null)
+            return 0;
+        int hl = height2(root.left);
+        int hr = height2(root.right);
+        return Math.max(hl, hr) + 1;
+    }
+
+    public static void main(String[] args) {
+        TreeNode node = new TreeNode(1);
+        node.left = new TreeNode(2);
+        node.right = new TreeNode(3);
+        node.left.left = new TreeNode(4);
+        node.left.right = new TreeNode(5);
+        System.out.println(new Solution().height2(node));
     }
 }
